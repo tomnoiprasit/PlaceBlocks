@@ -1,0 +1,15 @@
+name: PlaceBlocks
+version: 0.1
+main: org.noiprasit.placeblocks.PlaceBlocks
+description: place blocks
+commands:
+  placeblocks:
+    aliases: [placeblock]
+    description: place blocks
+    usage: /placeblock
+    permission: placeblock.use
+    permission-usage: You do not have appropriate permission... bad!
+permissions:
+  placeblock.use:
+    description: permission for norains command
+    default: op
